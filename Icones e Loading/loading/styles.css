@@ -12,6 +12,8 @@ body {
   align-items: center;
   background-color: black;
 }
+
+
 .loading{
   color: aliceblue;
   font-size: 10px;
@@ -27,11 +29,6 @@ body {
     color: black;
   }
 }
-
-
-
-
-
 
 
 .content {
@@ -52,9 +49,13 @@ body {
   
 }
 
+/*-------------Filhos-do-ring--------------------*/
+
+
 .ring:nth-child(1){
   border-bottom-width: 8px;
-  border-color: rgb(255, 255, 255);
+  border-color: #3712dd;
+  box-shadow: 0 0 50px #3712dd, inset 0 0 50px #3712dd;
   animation: rotate1 2s linear infinite backwards;
 
 }
@@ -77,22 +78,25 @@ body {
 
 .ring:nth-child(2) {
   border-right-width: 8px;
-  border-color: #0f0;
-  box-shadow: 0 0 50px #0f0, inset 0 0 50px #0f0;
+  border-color: #fff;
+  /*A Configuração de baixo me permite fazer um efeito neon*/
   animation: rotate2 2s linear infinite backwards;
+}
   
 
-}
 
 @keyframes rotate2 {
   0% {
     transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
     /*-Aqui estou mexedo nos eixos e setando uma inclinação nesse eixo*/
+   
+  
   }
 
   100% {
     transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
     /*-Aqui estou mexedo nos eixos e setando uma inclinação nesse eixo*/
+  
 
   }
 }
@@ -102,7 +106,8 @@ body {
 
 .ring:nth-child(3) {
   border-top-width: 8px;
-  border-color: rgba(0, 42, 255, 0.763);
+  border-color: #ef09c9;
+  box-shadow: 0 0 50px #ef09c9, inset 0 0 50px #ef09c9;
   animation: rotate3 2s linear infinite backwards;
 
 }
@@ -111,11 +116,13 @@ body {
   0% {
     transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
     /*-Aqui estou mexedo nos eixos e setando uma inclinação nesse eixo*/
+    
   }
 
   100% {
     transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
     /*-Aqui estou mexedo nos eixos e setando uma inclinação nesse eixo*/
+
 
   }
 }
