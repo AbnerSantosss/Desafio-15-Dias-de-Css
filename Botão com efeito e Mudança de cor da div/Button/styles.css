@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #343232;
+  font-size: 1.6rem;
+}
+
+.btn{
+margin-top: 50%;
+color: #fff;
+background-color: #27282c;
+position: relative;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 1.9rem;
+font-weight: bold;
+padding: 1.0rem 3.0rem;
+transition: 0.5s;
+cursor: pointer;
+height: 7.5rem;
+transition: 0.5s;
+border: 2px solid white;
+}
+
+.btn:hover{
+  letter-spacing: 0.25em;
+  background: #0ff6f6;
+  box-shadow: 0 0 35px #0ff6f6;
+  color: #343232;
+  border: none;
+}
+
+.btn::before{
+  content: '';
+  position: absolute;
+}
+/*-----Elemento que está a cima do botão, esse elemento é que ser animado---*/
+.btn i{
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.btn i::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 2.0rem;
+  height: 4px;
+  background: #343232;
+  transform: translateX(-50%) skew(3250deg);
+  transition: 0.5s;
+}
+
+.btn:hover i::before{
+  width: 10.0rem;
+  left: 20%;
+}
+
+/*-----Elemento que está a baixo do botão, esse elemento é que ser animado---*/
+
+.btn i::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 2.0rem;
+  height: 4px;
+  background: #343232;
+  transform: translateX(-50%) skew(3250deg);
+  transition: 0.5s;
+}
+
+.btn:hover i::after {
+  width: 11.0rem;
+  left: 80%;
+}
+
+
+
+
+
+
+  
+  
+
+
