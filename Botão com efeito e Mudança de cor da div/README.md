@@ -24,8 +24,39 @@
 ![Antes (10)](https://user-images.githubusercontent.com/107922389/199117241-70247d5f-2241-4b17-8ea2-847eddd9fbfc.gif)
 
 
+ 
+  </div>
+
+  <div align="center">
+ <h1>Div que muda de cor</h1>
+
+ </div>
+ 
+
+
+####  O que foi ultilizado:
+> * Ultilizei o text shadow para trabalhar com os textos
+> * Troquei o nome das classe, tornando cada classe única para cada section, assim podendo trabalhar cada lado em especifico
+> * Efeito gradiente no primeiro lado
+
+
+
+
+
+
+
+
+<div align="center">
+
+⬇️Preview ⬇️
+
+
+
+![Design sem nome (4)](https://user-images.githubusercontent.com/107922389/200729235-4dd6df97-8958-4e9b-8f2e-c6d158e0242b.gif)
+
    <p style="text-align: center;">Por Abner Santos ✨</p>
   </div>
+
 
  
 
